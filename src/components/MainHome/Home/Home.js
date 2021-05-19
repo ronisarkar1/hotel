@@ -18,7 +18,7 @@ const Home = () => {
             <Review></Review>
             <ChooseUs></ChooseUs>
             <Footer></Footer>
-      
+          
             <h2>roni</h2>
         </div>
     );

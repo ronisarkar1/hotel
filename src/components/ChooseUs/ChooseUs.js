@@ -11,6 +11,7 @@ import {
   faUtensils,
   faSpa,
 } from "@fortawesome/free-solid-svg-icons";
+import './ChoosUs.css'
 const ChooseUs = () => {
   return (
     <Container>
@@ -22,12 +23,15 @@ const ChooseUs = () => {
 
       <Row>
         <Col xs={4} md={3}>
-          <FontAwesomeIcon icon={faWifi} />
+       
+          <FontAwesomeIcon  icon={faWifi} />
+
+      
           <br />
           INTERNET
         </Col>
         <Col xs={4} md={3}>
-          <FontAwesomeIcon icon={faCocktail} />
+          <FontAwesomeIcon ></FontAwesomeIcon> icon={faCocktail} />
           <br />
           DRINKS
         </Col>

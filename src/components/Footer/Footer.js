@@ -1,11 +1,12 @@
 import React from "react";
+import './Footer.css'
 import { Button, Container, Row, Col, Card,Form } from "react-bootstrap";
 const Footer = () => {
   return (
-    <div>
-      <Container>
+    <div className='footer'>
+      <Container >
         <Row>
-          <Col xs={6} md={3}>
+          <Col className='footerCol' xs={6} md={3}>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Hotello</Card.Title>
@@ -18,7 +19,7 @@ const Footer = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={6} md={3}>
+          <Col className='footerCol' xs={6} md={3}>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>Hotello</Card.Title>
@@ -31,7 +32,7 @@ const Footer = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={6} md={3}>
+          <Col className='footerCol' xs={6} md={3}>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>CONTACT US</Card.Title>
@@ -45,7 +46,7 @@ const Footer = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={6} md={3}>
+          <Col className='footerCol' xs={6} md={3}>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>STAY IN TOUCH</Card.Title>

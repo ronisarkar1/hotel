@@ -11,6 +11,8 @@ const Review = () => {
   return (
     <div>
       <Container>
+      <Card.Text className="text-center">Customer Reviews</Card.Text>
+
         <Row>
             {
               fakedata.map(fd =><ReviewCard fd={fd}></ReviewCard>)
